@@ -78,7 +78,7 @@
     cover: (s) => `
       <div class="cover">
         <div class="kicker" ${anim("fade-down", 0)}>TILON × UNIVERSITY</div>
-        <h1 class="type-title" ${anim("fade-up", 120)}><span class="type-line en grad" data-type="AI Native Campus"></span><br><span class="type-line" data-type="구축 시 기대효과"></span></h1>
+        <h1 class="type-title" ${anim("fade-up", 120)}><span class="type-line en grad">AI Native Campus</span><br><span class="type-line">구축 시 기대효과</span></h1>
         <div class="lead" ${anim("fade-up", 320)}>VDI <span class="sep">·</span> GPU <span class="sep">·</span> Internal AI <span class="sep">·</span> Tstation <span class="sep">·</span> CBT 통합 기반</div>
         <div class="lead2" ${anim("fade-up", 420)}>미래를 선도하는 대학의 실행 인프라</div>
         <div class="cta" ${anim("fade-in", 640)}>
