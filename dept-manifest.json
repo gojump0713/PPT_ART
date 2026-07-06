@@ -1,0 +1,187 @@
+[
+  {
+    "file": "assets/img/dept-construction.png",
+    "label": "건설시스템과",
+    "category": "건축·생활"
+  },
+  {
+    "file": "assets/img/dept-arch.png",
+    "label": "건축학과",
+    "category": "건축·생활"
+  },
+  {
+    "file": "assets/img/dept-chem.png",
+    "label": "화장품화공계열",
+    "category": "건축·생활"
+  },
+  {
+    "file": "assets/img/dept-game.png",
+    "label": "게임애니메이션과",
+    "category": "디자인·콘텐츠"
+  },
+  {
+    "file": "assets/img/dept-visual.png",
+    "label": "시각영상디자인과",
+    "category": "디자인·콘텐츠"
+  },
+  {
+    "file": "assets/img/dept-webtoon.png",
+    "label": "웹툰과",
+    "category": "디자인·콘텐츠"
+  },
+  {
+    "file": "assets/img/dept-interior.png",
+    "label": "인테리어디자인과",
+    "category": "디자인·콘텐츠"
+  },
+  {
+    "file": "assets/img/dept-fashion.png",
+    "label": "패션디자인마케팅과",
+    "category": "디자인·콘텐츠"
+  },
+  {
+    "file": "assets/img/dept-nursing.png",
+    "label": "간호학과",
+    "category": "보건의료"
+  },
+  {
+    "file": "assets/img/dept-physio.png",
+    "label": "물리치료과",
+    "category": "보건의료"
+  },
+  {
+    "file": "assets/img/dept-healthadmin.png",
+    "label": "보건의료행정과",
+    "category": "보건의료"
+  },
+  {
+    "file": "assets/img/dept-dental.png",
+    "label": "치위생과",
+    "category": "보건의료"
+  },
+  {
+    "file": "assets/img/dept-biz.png",
+    "label": "i-경영·회계계열",
+    "category": "복지·경영·국제"
+  },
+  {
+    "file": "assets/img/dept-procurement.png",
+    "label": "공공조달학과",
+    "category": "복지·경영·국제"
+  },
+  {
+    "file": "assets/img/dept-intl.png",
+    "label": "국제대학",
+    "category": "복지·경영·국제"
+  },
+  {
+    "file": "assets/img/dept-future.png",
+    "label": "미래융합기술학부",
+    "category": "복지·경영·국제"
+  },
+  {
+    "file": "assets/img/dept-welfareserv.png",
+    "label": "사회복지서비스과",
+    "category": "복지·경영·국제"
+  },
+  {
+    "file": "assets/img/dept-welfare.png",
+    "label": "사회복지학과",
+    "category": "복지·경영·국제"
+  },
+  {
+    "file": "assets/img/dept-kbeauty.png",
+    "label": "K-뷰티과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-leisure.png",
+    "label": "글로벌레저서비스과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-bakery.png",
+    "label": "글로벌베이커리과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-culinary.png",
+    "label": "글로벌외식조리과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-model.png",
+    "label": "모델테이너과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-hair.png",
+    "label": "헤어디자인과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-pethealth.png",
+    "label": "반려동물보건과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-petstyle.png",
+    "label": "반려동물스타일리스트과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-service.png",
+    "label": "서비스매니지먼트전공",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-sports.png",
+    "label": "스포츠재활과",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-tourism.png",
+    "label": "웰라이프관광전공",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-casino.png",
+    "label": "카지노&서베일런스전공",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-hotel.png",
+    "label": "호텔·항공관광전공",
+    "category": "외식·뷰티·서비스"
+  },
+  {
+    "file": "assets/img/dept-semicon.png",
+    "label": "ICT반도체전자계열",
+    "category": "IT·반도체·기계"
+  },
+  {
+    "file": "assets/img/dept-security.png",
+    "label": "사이버보안과",
+    "category": "IT·반도체·기계"
+  },
+  {
+    "file": "assets/img/dept-software.png",
+    "label": "소프트웨어융합과",
+    "category": "IT·반도체·기계"
+  },
+  {
+    "file": "assets/img/dept-ecar.png",
+    "label": "스마트e-자동차과",
+    "category": "IT·반도체·기계"
+  },
+  {
+    "file": "assets/img/dept-machine.png",
+    "label": "스마트융합기계계열",
+    "category": "IT·반도체·기계"
+  },
+  {
+    "file": "assets/img/dept-electric.png",
+    "label": "전기자동화과",
+    "category": "IT·반도체·기계"
+  }
+]

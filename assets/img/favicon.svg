@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c98a"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#060b16"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="14.5" fill="none" stroke="url(#g)" stroke-opacity="0.35" stroke-width="1"/>
+  <!-- neural nodes -->
+  <g stroke="url(#g)" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <line x1="16" y1="20" x2="32" y2="32"/>
+    <line x1="16" y1="44" x2="32" y2="32"/>
+    <line x1="48" y1="18" x2="32" y2="32"/>
+    <line x1="48" y1="46" x2="32" y2="32"/>
+  </g>
+  <g fill="url(#g)">
+    <circle cx="16" cy="20" r="3.4"/>
+    <circle cx="16" cy="44" r="3.4"/>
+    <circle cx="48" cy="18" r="3.4"/>
+    <circle cx="48" cy="46" r="3.4"/>
+  </g>
+  <!-- central AI spark -->
+  <path filter="url(#glow)" fill="url(#g)"
+    d="M32 15 L35 29 L49 32 L35 35 L32 49 L29 35 L15 32 L29 29 Z"/>
+</svg>

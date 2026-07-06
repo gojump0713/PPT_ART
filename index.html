@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>AI Native Campus 구축 시 기대효과</title>
+  <meta name="description" content="VDI · GPU · Internal AI · Tstation · CBT 통합 기반 — 틸론이 완성하는 대학 AI Native Campus" />
+  <meta name="color-scheme" content="dark" />
+  <!-- Open Graph (카카오톡 · SNS 공유) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gojump0713.github.io/PPT_ART/" />
+  <meta property="og:site_name" content="TILON" />
+  <meta property="og:title" content="AI Native Campus 구축 시 기대효과" />
+  <meta property="og:description" content="VDI · GPU · Internal AI · Tstation · CBT 통합 기반 — 틸론이 완성하는 대학 AI Native Campus" />
+  <meta property="og:image" content="https://gojump0713.github.io/PPT_ART/assets/img/og-image.png" />
+  <meta property="og:image:width" content="1376" />
+  <meta property="og:image:height" content="768" />
+  <meta property="og:image:alt" content="대학교 AX Native Campus 도입 시 기대효과" />
+  <meta property="og:locale" content="ko_KR" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Native Campus 구축 시 기대효과" />
+  <meta name="twitter:description" content="VDI · GPU · Internal AI · Tstation · CBT 통합 기반 — 틸론이 완성하는 대학 AI Native Campus" />
+  <meta name="twitter:image" content="https://gojump0713.github.io/PPT_ART/assets/img/og-image.png" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg?v=22" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+  />
+  <link rel="stylesheet" href="styles.css?v=22" />
+</head>
+<body>
+  <!-- Loading veil -->
+  <div class="boot" id="boot" aria-hidden="true">
+    <div class="boot__ring"></div>
+    <div class="boot__label">AX NATIVE CAMPUS</div>
+  </div>
+
+  <!-- Progress bar (top) -->
+  <div class="progress" id="progress" aria-hidden="true"><span></span></div>
+
+  <!-- Slide deck: sections are injected by script.js from slides.js -->
+  <main class="deck" id="deck" tabindex="0" aria-label="발표 슬라이드"></main>
+
+  <!-- Fixed brand + chrome -->
+  <header class="chrome chrome--top">
+    <a class="brand" href="#slide-1" aria-label="처음으로">
+      <span class="brand__tilon">TILON</span>
+    </a>
+    <div class="chrome__right">
+      <span class="slide-counter" id="counter" aria-live="polite">01 / 45</span>
+    </div>
+  </header>
+
+  <!-- Right-side dot navigation -->
+  <nav class="slide-dots" id="dots" aria-label="슬라이드 이동"></nav>
+
+  <!-- Bottom control cluster -->
+  <div class="chrome chrome--bottom">
+    <button class="ctl" id="btnPrev" aria-label="이전 슬라이드" title="이전 (↑)">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6 15l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="ctl" id="btnNext" aria-label="다음 슬라이드" title="다음 (↓ / Space)">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="ctl" id="btnFull" aria-label="발표 모드" title="발표 모드 (F)">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="ctl" id="btnHelp" aria-label="도움말" title="도움말 (?)">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9 9a3 3 0 116 0c0 2-3 2.5-3 4.5M12 17.5h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+
+  <!-- Help overlay -->
+  <div class="help" id="help" role="dialog" aria-modal="true" aria-label="발표 조작 도움말" hidden>
+    <div class="help__card">
+      <h2>발표 조작 안내</h2>
+      <ul class="help__keys">
+        <li><kbd>↓</kbd><kbd>→</kbd><kbd>Space</kbd><kbd>PageDn</kbd><span>다음 슬라이드</span></li>
+        <li><kbd>↑</kbd><kbd>←</kbd><kbd>PageUp</kbd><span>이전 슬라이드</span></li>
+        <li><kbd>Home</kbd><kbd>End</kbd><span>처음 / 마지막</span></li>
+        <li><kbd>F</kbd><span>발표(전체화면) 모드</span></li>
+        <li><kbd>O</kbd><span>목차(개요) 보기</span></li>
+        <li><kbd>?</kbd><span>이 도움말 열기/닫기</span></li>
+        <li><span class="help__scroll">마우스 휠 · 터치 스와이프로도 이동합니다.</span></li>
+      </ul>
+      <button class="help__close" id="helpClose">닫기 (Esc)</button>
+    </div>
+  </div>
+
+  <!-- Overview (thumbnail grid) -->
+  <div class="overview" id="overview" hidden>
+    <div class="overview__head">
+      <h2>목차</h2>
+      <button class="overview__close" id="overviewClose" aria-label="닫기">✕</button>
+    </div>
+    <div class="overview__grid" id="overviewGrid"></div>
+  </div>
+
+  <script src="darkveil.js?v=22"></script>
+  <script src="slides.js?v=22"></script>
+  <script src="script.js?v=22"></script>
+</body>
+</html>
